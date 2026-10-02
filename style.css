@@ -21,3 +21,93 @@ body{
     max-width: 450px;
     text-align: center; 
 }
+
+h1{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.description{
+    color: #eee;
+    margin-bottom: 25px;
+}
+
+.game-box{
+    background: white;
+    padding: 30px;
+    border-radius: 14px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input{
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+
+    border: none;
+    border-radius: 8px;
+
+    background: #667eea;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+button:hover {
+    background: #5568d9;
+}
+
+#rangeText {
+    margin: 20px 0;
+    font-weight: bold;
+    color: #555;
+}
+
+#message {
+    margin: 15px 0;
+    font-weight: bold;
+    min-height: 24px;
+}
+
+.attempts {
+    margin: 10px 0 20px;
+    color: #555;
+}
+#attemptCount {
+    font-weight: bold;
+    color: #667eea;
+}
+
+.restart {
+    background: #444;
+}
+
+.restart:hover {
+    background: #222;
+}
+
+.hidden {
+    display: none;
+}
